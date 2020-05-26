@@ -5,6 +5,9 @@ package.xml
 #recommended to manage this outside git
 
 installedPackages/*
+sf_chttr_apps
+TIMBASURVEYS
+copado
 
 #if you are not customizing a managed package, you can keep your repository clean by ignoring 
 #all files for that package. For example, to ignore all files of the "Copado" managed package
