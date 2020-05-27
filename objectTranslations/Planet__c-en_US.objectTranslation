@@ -9,23 +9,27 @@
         <value>Planets</value>
     </caseValues>
     <fields>
-        <label><!-- Galaxy --></label>
+        <label></label>
+        <name>Distance_to_Sun__c</name>
+    </fields>
+    <fields>
+        <label></label>
         <name>Galaxy__c</name>
         <picklistValues>
             <masterLabel>Andromeda Galaxy</masterLabel>
-            <translation><!-- Andromeda Galaxy --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Cigar Galaxy</masterLabel>
-            <translation><!-- Cigar Galaxy --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Eye of Sauron</masterLabel>
-            <translation><!-- Eye of Sauron --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Milky Way</masterLabel>
-            <translation><!-- Milky Way --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <startsWith>Consonant</startsWith>
