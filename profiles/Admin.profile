@@ -3614,9 +3614,6 @@
         <layout>OrderItem-Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Planet__c-Planet Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Pricebook2-Price Book Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4832,10 +4829,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ProfilePlatformOverview</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-QuickText</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
