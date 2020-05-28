@@ -115,11 +115,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Planet__c.Distance_to_Earth__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Planet__c.Distance_to_Sun__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -148,6 +143,14 @@
         <object>Planet__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <recordTypeVisibilities>
+        <recordType>Planet__c.Gas_Giants</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Planet__c.Terrestrial_Planets</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <tabSettings>
         <tab>Planet__c</tab>
         <visibility>Visible</visibility>
