@@ -9,6 +9,10 @@
         <value>Planets</value>
     </caseValues>
     <fields>
+        <label><!-- Distance to Earth? --></label>
+        <name>Distance_to_Earth__c</name>
+    </fields>
+    <fields>
         <label><!-- Distance to Sun? --></label>
         <name>Distance_to_Sun__c</name>
     </fields>
