@@ -143,6 +143,7 @@
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -179,6 +180,7 @@
     </fields>
     <fields>
         <fullName>Galaxy__c</fullName>
+        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Galaxy</label>
         <required>false</required>
@@ -245,6 +247,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Planets</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>Gas_Giants</fullName>
         <active>true</active>
@@ -277,7 +280,7 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
