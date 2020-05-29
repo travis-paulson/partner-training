@@ -36,5 +36,17 @@
             <translation><!-- Milky Way --></translation>
         </picklistValues>
     </fields>
+    <fields>
+        <label><!-- Mass --></label>
+        <name>Mass__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Gas Giants --></label>
+        <name>Gas_Giants</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Terrestrial Planets --></label>
+        <name>Terrestrial_Planets</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
