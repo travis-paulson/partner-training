@@ -22,6 +22,10 @@
                 <behavior>Readonly</behavior>
                 <field>Case_Age__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>CaseExternalID__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>

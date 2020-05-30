@@ -221,6 +221,19 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CaseExternalID__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>Case External ID</label>
+        <length>18</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>Case_Age__c</fullName>
         <externalId>false</externalId>
         <formula>IF(IsClosed, ROUND(ClosedDate - CreatedDate, 0), ROUND((NOW() - CreatedDate), 0))</formula>
