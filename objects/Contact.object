@@ -358,6 +358,17 @@ CASE( Dreamforce__c,
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Contact_External_ID__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>Contact External ID</label>
+        <length>18</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
